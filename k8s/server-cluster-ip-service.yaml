@@ -4,9 +4,8 @@ metadata:
   name: server-cluster-ip-service
 spec:
   type: ClusterIP
-  selector: 
-    component: web
+  selector:
+    component: server
   ports:
     - port: 5000
       targetPort: 5000
-      
