@@ -1,4 +1,5 @@
 sudo: required
+
 services:
   - docker
 env: 
@@ -24,3 +25,4 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
+
